@@ -53,6 +53,7 @@
   margin-bottom: 32px;
   height: 60px;
   border: none;
+  transition: opacity 2s linear 0.5s;
 }
 
 .form__button:hover {

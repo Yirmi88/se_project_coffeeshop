@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Adding an option to sign to a newsletter of the library
+- Adding a checkbox in the form that allows the coffee shop to send you emails regarding new promotions.
