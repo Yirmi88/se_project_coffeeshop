@@ -5,6 +5,7 @@
   padding: 100px 80px 215px;
   display: flex;
   flex-direction: column;
+  background-position: center;
 }
 
 .recipes__title {
@@ -41,6 +42,7 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  margin: 24px 0 0;
 }
 
 .recipes__iframe {

@@ -4,7 +4,7 @@
 
 .form__label {
   display: block;
-  font-family: "Inter";
+  font-family: "inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -20,7 +20,7 @@
 }
 
 .form__input::placeholder {
-  font-family: "Inter";
+  font-family: "inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -36,6 +36,8 @@
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .form__button {
@@ -43,7 +45,7 @@
   opacity: 100%;
   background: #2f80ed;
   color: white;
-  font-family: "Inter";
+  font-family: "inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -58,10 +60,11 @@
 
 .form__button:hover {
   opacity: 70%;
+  cursor: pointer;
 }
 
 .form__label[for="terms-of-use"] {
-  font-family: "Inter";
+  font-family: "inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

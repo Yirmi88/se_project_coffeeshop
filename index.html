@@ -15,16 +15,6 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
@@ -128,6 +118,7 @@
                   id="name"
                   name="Name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label for="number" class="form__label"
@@ -138,6 +129,7 @@
                   id="number"
                   name="number"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label for="datetime-local" class="form__label"
@@ -147,6 +139,7 @@
                   class="form__input"
                   id="datetime-local"
                   name="datetime-local"
+                  required
                 />
               </label>
               <label for="email" class="form__label"
@@ -157,6 +150,7 @@
                   id="email"
                   name="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
@@ -170,6 +164,7 @@
                 class="form__checkbox"
                 name="terms-of-use"
                 id="terms-of-use"
+                required
               />I agree with the terms of use
             </label>
           </form>
@@ -274,7 +269,7 @@
           </ul>
         </section>
         <section class="about" id="section-contacts">
-          <div class="about__title">About the coffee shop</div>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
@@ -295,13 +290,11 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <div class="footer__logo">
-            <img
-              src="./images/logo_coffeeshop_light.svg"
-              alt="Facebook Logo"
-              class="footer__logo"
-            />
-          </div>
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Coffee Shop Logo"
+            class="footer__logo"
+          />
           <div class="footer__column">
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
